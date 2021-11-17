@@ -1,0 +1,78 @@
+/* =============================================================================
+           Small Screen - Tablate/Others
+ ============================================================================= */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+body {
+	overflow: auto;	
+}
+.login-part {
+    background: rgba(0,0,0,.5);
+    padding: 100px 40px 30px 40px;
+    width: 50%;
+  
+}
+
+
+
+}
+/* =============================================================================
+            Xtra Small Screen - Tablate
+ ============================================================================= */
+@media screen and (min-width: 480px) and (max-width: 767px) {	
+body {
+	overflow: auto;	
+}
+.login-part {
+    background: rgba(0,0,0,.5);
+    padding: 100px 40px 30px 40px;
+    width: 90%;
+    margin: 25% auto;
+    position: relative;
+}
+.login-part img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    bottom: 92%;
+    left: 40%;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+
+}
+
+
+/* =============================================================================
+            Xtra Small Screen - Mobile Phone
+ ============================================================================= */
+@media screen and (max-width: 479px) {
+
+body {
+	overflow: auto;
+}
+.login-part {
+    background: rgba(0,0,0,.5);
+    padding: 100px 40px 30px 40px;
+    width: 90%;
+    margin: 25% auto;
+    position: relative;
+}
+.login-part img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    height: 80px;
+    position: absolute;
+    bottom: 92%;
+    left: 35%;
+    cursor: pointer;
+    transition: 0.4s all ease;
+}
+
+
+}
